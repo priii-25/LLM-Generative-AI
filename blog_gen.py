@@ -3,7 +3,7 @@ from langchain.llms import OpenAI
 from langchain.prompts import PromptTemplate
 from langchain.chains import LLMChain, SimpleSequentialChain, SequentialChain
 import os
-os.environ['OPENAI_API_KEY'] = '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'
+os.environ['OPENAI_API_KEY'] = '--------------------'
 # llm = OpenAI(temperature=0.9)
 # title_chain = LLMChain(llm=llm, prompt = title_template, verbose = True, output_key='title')
 title_template = PromptTemplate(
